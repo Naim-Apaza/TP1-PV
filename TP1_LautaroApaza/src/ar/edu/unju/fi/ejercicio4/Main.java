@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Ingrese un numero: ");
-		int i = in.nextInt();
-		int num = 1;
+		byte i = in.nextByte();
+		byte num = 1;
 		if (i <= 10 && i >= 0) {
 			while (i > 0) {
 				num *= i;
