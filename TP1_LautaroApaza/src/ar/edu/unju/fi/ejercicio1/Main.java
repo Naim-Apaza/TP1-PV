@@ -8,9 +8,8 @@ public class Main {
 		int num3 = 1;
 		int num4 = 20;
 		int num5 = 9;
-		
-		float promedio = (float)(num1 + num2 + num3 + num4 + num5) / 5;
-		
+		float promedio = (float) (num1 + num2 + num3 + num4 + num5) / 5;
+
 		System.out.println("El promedio es: " + promedio);
 	}
 
