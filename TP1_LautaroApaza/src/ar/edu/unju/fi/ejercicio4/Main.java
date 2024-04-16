@@ -9,13 +9,14 @@ public class Main {
 		System.out.print("Ingrese un numero: ");
 		byte i = in.nextByte();
 		byte num = 1;
-		if (i <= 10 && i >= 0) {
+		if (i < 0 || i > 10) {
+			System.out.println("El numero debe estar entre 0 y 10");
+
+		} else {
 			while (i > 0) {
 				num *= i;
 				i--;
 			}
-		} else {
-			System.out.println("El numero debe estar entre 0 y 10");
 		}
 		System.out.println("El resultado es " + num);
 	}

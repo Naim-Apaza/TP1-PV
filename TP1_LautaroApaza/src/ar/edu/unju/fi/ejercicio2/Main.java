@@ -7,7 +7,7 @@ public class Main {
 		byte edad = 86;
 		float alturaEdificio = 56.6f;
 		float precioProducto = 4899.99f;
-		String numTelefono = "3883921103";
+		long numTelefono = 3883921103L;
 		double calculo = Math.cos(0.5);
 
 		System.out
