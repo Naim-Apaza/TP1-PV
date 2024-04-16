@@ -8,6 +8,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Ingrese un numero: ");
 		byte i = in.nextByte();
+		in.close();
 		byte num = 1;
 		if (i < 0 || i > 10) {
 			System.out.println("El numero debe estar entre 0 y 10");

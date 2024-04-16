@@ -38,7 +38,7 @@ public class Pizza {
         return
                 "- diametro=" + (int)diametro + '\n' +
                 "- ingredientes Especiales= " + ingredientesEspeciales + '\n' +
-                "- precio=" + calcularPrecio() + '\n' +
+                "- precio=" + (int) calcularPrecio() + '$' + '\n' +
                 "- area=" + calcularArea();
     }
 

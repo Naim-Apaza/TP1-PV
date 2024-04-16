@@ -26,7 +26,7 @@ public class Main {
 				System.out.print("Ingrese descuento del producto(hasta 50%): ");
 				int descuento = in.nextInt();
 				in.nextLine();
-
+				in.close();
 				Producto producto = new Producto();
 
 				producto.setNombre(nombre);

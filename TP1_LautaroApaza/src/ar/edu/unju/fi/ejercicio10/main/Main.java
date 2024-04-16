@@ -20,10 +20,9 @@ public class Main {
 
                 System.out.print("¿Tiene ingrediente especiales?(true/false) ");
                 pizza.setIngredientesEspeciales(in.nextBoolean());
-
+                in.close();
 
                 System.out.println(pizza.toString());
-
 
                 System.out.println("-------------------------------------");
                 i++;

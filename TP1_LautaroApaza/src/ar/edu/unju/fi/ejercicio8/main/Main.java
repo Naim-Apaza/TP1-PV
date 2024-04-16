@@ -17,6 +17,7 @@ public class Main {
 			calculator.setN(n);
 			System.out.println("Sumatoria: " + calculator.calcularSumatoria() + '\n');
 			System.out.println("Productoria: " + calculator.calcularProductoria());
+			in.close();
 		} catch (Exception e) {
 			System.out.println("Se esperaba en N(valor numerico)");
 		}

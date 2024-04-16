@@ -8,6 +8,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Ingrese un numero: ");
 		int num = in.nextInt();
+		in.close();
 		num = num % 2 == 0 ? num * 3 : num * 2;
 		
 		System.out.println("Resultado: " + num);
